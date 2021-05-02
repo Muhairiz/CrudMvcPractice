@@ -1,0 +1,108 @@
+@charset "ISO-8859-1";
+
+body {
+    font-family: "Lato", sans-serif;
+    height: 100%;
+}
+
+#header-nav {
+	background-color: dodgerblue;
+	border-radius: 0;
+	border: 0;
+	padding: 4px 0px 6px 0px;
+}
+
+#logo-img {
+	height: 15px;
+	width: 15px;
+	margin: 10px 15px 10px 0px;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+#lg-out{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	float: right;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 110px;
+    left: 0;
+    background-color: #111;
+    padding-top: 0px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn, .dropdown-btn1, .dropdown-btn2, .dropdown-btn3, .dropdown-btn4, .dropdown-btn5, .dropdown-btn6 {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover, .dropdown-btn1:hover, .dropdown-btn2:hover, .dropdown-btn3:hover, .dropdown-btn4:hover, .dropdown-btn5:hover, .dropdown-btn6:hover {
+    color: #f1f1f1;
+    background-color: green;
+}
+
+/* Main content */
+.main {
+    margin: 10px 20px 10px 200px; 
+    font-size: 20px;
+}
+
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container, .dropdown-container1, .dropdown-container2, .dropdown-container3, .dropdown-container4, .dropdown-container5, .dropdown-container6 {
+    display: none;
+    background-color: #262626;
+    padding: 5px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	line-height: .75;
+	float: center;
+}
+
+#footer{
+	margin-left: 250px;
+	font-size: 20px;
+}
+
+#forget{
+	padding: 10px;
+}
+
+
+
+
+
